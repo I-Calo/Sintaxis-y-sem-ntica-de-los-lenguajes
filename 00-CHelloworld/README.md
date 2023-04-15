@@ -10,6 +10,6 @@ Autor:
     
     Usuario github: I-Calo
 
-Tabajo N°0 "Hello World"
+Tabajo N°0: "Hello World"
 
-Descripción: imprimir por pantalla un "hello world" en C y subirlo como un archivo.txt
+Descripción: Imprimir por pantalla un "hello world" en C y subirlo como un archivo.txt

@@ -2,8 +2,11 @@ Numero de equipo: 25
 
 Autor: 
     Nombre: Ignacio
+    
     Apellido: Caló
+    
     Legajo: 208-919-1
+    
     Usuario github: I-Calo
 
 Tabajo N°0 "Hello World"

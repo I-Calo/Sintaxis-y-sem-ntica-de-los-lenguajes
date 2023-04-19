@@ -1,4 +1,5 @@
 Numero de equipo: 25
+
 Autor: 
 
     Nombre: Ignacio

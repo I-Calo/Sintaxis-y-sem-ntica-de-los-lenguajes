@@ -14,4 +14,4 @@ Tabajo N°0: "Hello World"
 
 Descripción: Imprimir por pantalla un "hello world" en C y subirlo como un archivo.txt
 
-Compilador: C11
+Compilador: gcc 6.3.0

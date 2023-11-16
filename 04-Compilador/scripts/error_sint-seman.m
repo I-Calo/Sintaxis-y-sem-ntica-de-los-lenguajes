@@ -1,0 +1,3 @@
+inicio 
+    leer (a)
+fin

@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+ <meta charset="UTF-8"> 
+<head>
+    <title>ER DE PRUEBA</title>
+	<script language="javascript">
+
+		function expresionregular(){
+			var texto=document.getElementById("nombre").value;
+			let ER2 =/^((0[Xx][1-9A-Fa-f][0-9A-Fa-f]*|0[1-7][0-7]*|\-{0,1}[1-9][0-9]*|0x0|0c0|0)\$)*$/ ;
+			///^(0x[1-9A-F][0-9A-F]*|0c[1-7][0-7]*|\-{0,1}[1-9][0-9]*)\$/;
+			///^((\-){0,1}.[0-9]|[0-9A-F]|\$)*$/
+			
+			alert(ER2.test(texto));
+			let resultado = `--- Palabra regular: ${texto} Estado: ${ER2.test(texto)}--- \n`;
+			document.querySelector("#palabra").innerHTML += `${resultado}<br>`;
+		}
+		
+
+	</script>
+</head>
+<body>
+<h4>JUGUEMOS CON EXPRESIONES REGULARES</h4>
+   
+
+    <form id="form1">
+
+        CADENA DE PRUEBA:<br>
+		<input type="text" name="nombre" value="" id="nombre" class="formulario">
+ 
+
+
+    </form>
+	<hr />
+    <input type="button" value="Verificar expresion regular" onclick="expresionregular()">
+	<br />
+    RESULTADO:<div id="resultado"></div>
+	<p id="palabra"></p>
+
+</body>
+</html>
+
